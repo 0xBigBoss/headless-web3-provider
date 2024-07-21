@@ -1,3 +1,4 @@
+import crypto from 'node:crypto'
 import type { Page } from '@playwright/test'
 import { Web3ProviderConfig } from './Web3ProviderBackend'
 import { makeHeadlessWeb3Provider } from './factory'
